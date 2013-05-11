@@ -8,7 +8,7 @@ define([
 	'underscore',
 	'backbone',
 	'transitions',
-	'text!/MedicationTimerDev/tpl/IndexView.html',
+	'text!/JS-app-starter--backbone-require/tpl/IndexView.html',
 	], function($, _, Backbone, Transitions, indexTemplate) {
 		//extend a backbone view
 		var indexView = Backbone.View.extend({

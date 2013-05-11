@@ -9,7 +9,7 @@ define([
 	'backbone',
 	'transitions',
 	'../models/sessionCollection',
-	'text!/MedicationTimerDev/tpl/EditSessionView.html',
+	'text!/JS-app-starter--backbone-require/tpl/EditSessionView.html',
 	], function($, _, Backbone, Transitions, sessionCollection, editSessionTemplate) {
 		//extend a backbone view
 		var editSessionView = Backbone.View.extend({
